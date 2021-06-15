@@ -1,0 +1,121 @@
+﻿<html lang="en">
+<head>
+  <title>JJ LIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link  rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link href="https://fonts.googleapis.com/css2? family=Kosugi Maru&display=swap" rel="stylesheet">
+
+</head>
+  
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#"><img src="https://swayjm.github.io/img/0.png" width=50px alt="cute JJ">JJ LIN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">個人介紹</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="h2.html">專輯介紹</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="h3.html">官方網站</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="h4.html">餐廳資訊</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+  <div class="jjlin">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://swayjm.github.io/img/IMG_6575_s.jpg"  alt="JJ LIN 線上演唱會" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://swayjm.github.io/img/1152x768_20191208000068.jpg
+"alt="JJ LIN 演唱會照片" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://swayjm.github.io/img/bf752258cb4b4176b09267979b790416.jpeg
+" alt="JJ LIN 聖所演唱會" width="100%" height="100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<section id="s1">
+    <div class="container-fluid">
+     <div class="row">
+           <div class="col-sm-12"> 
+             <h3>個人介紹</h3>
+             <hr>
+           </div>  
+       <div class="col-sm-6"> 
+        <p>林俊傑（藝名：JJ Lin）
+        <p>1981年3月27日出生於新加坡</p>
+          <p>金曲獎最佳新人獎及兩屆最佳男歌手</p>
+          <img src="https://swayjm.github.io/img/123934_7woh4owediilhz0u45lbnb6cx.jpg" class="img-fluid" alt="JJ LIN image"><p></p>
+         父親林遠翔是新加坡電信的董事。
+         哥哥林俊峰，為瑞銀集團亞太地區的副總裁。
+         姑父是日本佳能集團總裁。林俊傑在完成兵役前，曾就讀於靜山小學、英華自主中學和聖安德烈初級學院。
+         後放棄就讀新加坡國立大學的機會，與海蝶音樂簽下合約。
+          </p> 
+       </div>
+       <div class="col-sm-6"> 
+        <p>2003年發行首張創作專輯《樂行者》</p>
+         <p>2004年以歌曲《江南》一曲成名</p>
+         <p>2014年，以專輯《因你而在》獲得第25屆金曲獎最佳國語男歌手獎。</p>
+          <p>2016年，再以專輯《和自己對話》奪得第27屆金曲獎最佳國語男歌手獎及演唱類最佳作曲人獎。
+        《不為誰而作的歌》、《修煉愛情》以及在中國大陸音樂節目《夢想的聲音2》翻唱的《輸了你贏了世界又如何》三首歌曲在YouTube點閱數均破億，其中《輸了你贏了世界又如何》成為華語樂壇第一位破億翻唱現場表演的歌手。 </p>
+       </div>
+     </div>
+    </div>
+</section>
+  
+  
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>
+
